@@ -143,4 +143,29 @@ DarkLabel 프로그램에서 영상을 프레임 단위로 이미지로 변환�
 
 In the DarkLabel program, an image can be converted into an image in units of frames. First, a 640 x 640 resolution image is selected through Open Video. After that, labeled frames only will have the check mark enabled but deactivate the check mark. After that, it is converted into an image in a folder called images through as images
 
-(작성중)
+
+학습에 필요한 라이브러리
+```
+import torch
+import os
+from IPython.display import Image, clear_output  # to display images
+```
+
+학습 스크립트
+```
+python "C:\\Users\\ASUS\\Desktop\\AI\\yolov5\\yolov5\\train.py"  --img 512 --batch 16 --epochs 300 --data C:\Users\ASUS\Desktop\AI\yolov5\yolov5\data.yaml --weights yolov5n.pt --cache
+```
+--img 512: 입력 이미지의 크기를 512*512로 설정한다.
+Set the size of the input image to 640x640.
+
+--batch 16: 배치 크기를 설정한다. 한 번에 처리되는 이미지의 수를 나타낸다.
+Sets the batch size. This indicates the number of images to be processed at one time.
+
+--epochs 300: 학습할 총 에폭(epoch) 수를 설정합니다.
+Sets the total number of epochs to learn.
+
+--data /content/drive/MyDrive/yolov5/data.yaml: 데이터셋 및 모델 구성에 대한 설정이 담긴 YAML 파일의 경로를 지정한다.
+Specifies the path to the YAML file containing the configuration settings for the YOLOv5 model.
+
+--weights yolov5n.pt: 미리 훈련된 가중치 파일의 경로를 지정한다. 여기서는 yolov5n.pt 파일을 사용하고 있다.
+Specifies the path to the pre-trained weights file. Here, we are using the yolov5n.pt file.
