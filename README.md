@@ -169,3 +169,25 @@ Specifies the path to the YAML file containing the configuration settings for th
 
 ```weights yolov5n.pt```: 미리 훈련된 가중치 파일의 경로를 지정한다. 여기서는 yolov5n.pt 파일을 사용하고 있다.
 Specifies the path to the pre-trained weights file. Here, we are using the yolov5n.pt file.
+
+
+Nvidia Jetson Nano 학습 결과 Nvidia Jetson Nano Training Result
+학습 결과는 ```C:\Users\ASUS\Desktop\AI\yolov5\yolov5\runs/train```에 저장된다.
+Training results are stored in ```C:\Users\ASUS\Desktop\AI\yolov5\yolov5\runs/train```
+
+![F1_curve](https://github.com/user-attachments/assets/27ee4581-89eb-434f-a4ea-1f97f3b77978)
+![PR_curve](https://github.com/user-attachments/assets/278371ed-1620-4129-8320-96e38b511e37)
+![P_curve](https://github.com/user-attachments/assets/3411faf9-003c-48cb-acb1-2f961d5abfea)
+![R_curve](https://github.com/user-attachments/assets/ac18c2af-10b3-4355-9f66-dc6b10341832)
+
+![results](https://github.com/user-attachments/assets/c21f2240-7f10-40c4-8152-3a18985fc0b8)
+
+
+Nvidia Jetson Nano 학습 결과 검증 영상 Nvidia Jetson Nano Training Results Verification Video
+
+카메라를 뒤집어도 정확하게 문고리를 감지해낸다
+
+(영상자리)
+
+
+
