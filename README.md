@@ -27,7 +27,13 @@ DoorSense: A Door Recognition System for Humanoid Robots
 
 </aside>
 
-- Humanoid robots require the ability to recognize and avoid obstacles and objects in their surroundings to autonomously navigate and operate within indoor environments. For this purpose, recognizing specific objects, such as door handles, is essential, allowing the robot to perceive entire door structures and efficiently plan its routes while avoiding obstacles when necessary. YOLOv5, a deep learning-based object recognition technology, is well-suited to implement these capabilities, enabling the robot to accurately detect small objects like door handles in real-time, thereby enhancing its understanding and adaptation to its environment. This project aims to apply YOLOv5 to recognize door handles and integrate this capability into the humanoid robot's obstacle detection system, thereby increasing the potential for robot utilization in various fields such as smart homes and service robots.
+- This project goes beyond the simple recognition of door handles and aims to develop a real-time response system for humanoid robots. The detection results are integrated into the robot's path planning algorithm, enabling autonomous decision-making, such as avoiding obstacles or preparing to interact with a detected door. Leveraging YOLOv5's capability to accurately detect small objects like door handles in real-time, the system maintains high reliability even in complex indoor environments.
+
+The project involves simulating diverse indoor settings to construct a comprehensive dataset. Through data augmentation—which considers variables like lighting conditions, handle positions, shapes, and colors—the training model is designed to achieve generalized performance across various conditions. This ensures the robot can consistently and accurately detect door handles, enhancing its operational dependability.
+
+Furthermore, the door recognition system is designed to integrate seamlessly with the robot’s mechanical framework, enabling future expansions to include actual door-opening mechanisms. This capability significantly broadens the potential applications of service robots in environments such as smart homes, hospitals, hotels, and commercial spaces, improving their flexibility and functionality.
+
+Additionally, this project demonstrates the industrial applicability of AI-based object recognition technologies. The system serves as a modular platform that could be extended to recognize and interact with other objects, such as switches, buttons, or levers. This foundational work positions the technology as a key enabler for the smart era, where robots are increasingly integrated into everyday human life.
 - 
 
 # General description of the current project
