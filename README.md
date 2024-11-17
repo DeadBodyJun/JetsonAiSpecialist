@@ -28,11 +28,8 @@ DoorSense: A Door Recognition System for Humanoid Robots
 </aside>
 
 - This project goes beyond the simple recognition of door handles and aims to develop a real-time response system for humanoid robots. The detection results are integrated into the robot's path planning algorithm, enabling autonomous decision-making, such as avoiding obstacles or preparing to interact with a detected door. Leveraging YOLOv5's capability to accurately detect small objects like door handles in real-time, the system maintains high reliability even in complex indoor environments.
-
 The project involves simulating diverse indoor settings to construct a comprehensive dataset. Through data augmentation—which considers variables like lighting conditions, handle positions, shapes, and colors—the training model is designed to achieve generalized performance across various conditions. This ensures the robot can consistently and accurately detect door handles, enhancing its operational dependability.
-
 Furthermore, the door recognition system is designed to integrate seamlessly with the robot’s mechanical framework, enabling future expansions to include actual door-opening mechanisms. This capability significantly broadens the potential applications of service robots in environments such as smart homes, hospitals, hotels, and commercial spaces, improving their flexibility and functionality.
-
 Additionally, this project demonstrates the industrial applicability of AI-based object recognition technologies. The system serves as a modular platform that could be extended to recognize and interact with other objects, such as switches, buttons, or levers. This foundational work positions the technology as a key enabler for the smart era, where robots are increasingly integrated into everyday human life.
 - 
 
