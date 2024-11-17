@@ -120,8 +120,9 @@ DoorSense: 휴머노이드 로봇의 문 인식 시스템
 ## **영상 취득 방법 (Image Acquisition Method):**
 
 - 실제 실내의 문고리를 다각도로 촬영 하였다
-
 Captured actual indoor door handles from various angles.
+
+(https://youtube.com/shorts/IZqbfBX37iw?feature=share)
 
 ## 학습 데이터 추출과 학습 어노테이션 (**Learning Data Extraction and Learning Annotation)**:
 
@@ -155,6 +156,13 @@ from IPython.display import Image, clear_output  # to display images
 ```
 python "C:\\Users\\ASUS\\Desktop\\AI\\yolov5\\yolov5\\train.py"  --img 512 --batch 16 --epochs 300 --data C:\Users\ASUS\Desktop\AI\yolov5\yolov5\data.yaml --weights yolov5n.pt --cache
 ```
+
+<img width="858" alt="KakaoTalk_20241117_222321158" src="https://github.com/user-attachments/assets/f8bf26cc-afc7-4d91-ba4f-8d2bb23b8d6b">
+
+cmd 환경에서 학습을 돌리는 모습
+
+
+
 ```img 512```: 입력 이미지의 크기를 512*512로 설정한다.
 Set the size of the input image to 640x640.
 
@@ -187,7 +195,11 @@ Nvidia Jetson Nano 학습 결과 검증 영상 Nvidia Jetson Nano Training Resul
 
 카메라를 뒤집어도 정확하게 문고리를 감지해낸다
 
-(영상자리)
+JetsonAiSpecialist verification1
+https://youtube.com/shorts/6gejM1pBcUc?feature=share
+
+JetsonAiSpecialist verification2
+https://youtube.com/shorts/sqgctFothtA?feature=share
 
 
 
