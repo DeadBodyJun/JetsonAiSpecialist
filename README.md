@@ -139,5 +139,6 @@ https://youtube.com/shorts/6gejM1pBcUc?feature=share
 JetsonAiSpecialist verification2
 https://youtube.com/shorts/sqgctFothtA?feature=share
 
-
+JetsonAiSpecialist verification3
+https://youtube.com/shorts/msXA-hnNSME?feature=share
 
